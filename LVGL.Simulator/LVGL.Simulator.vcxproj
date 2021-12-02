@@ -40,6 +40,36 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LVGL.Simulator.cpp" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\Charging_Battery.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\Dish.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\Loading.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_docked.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_docking.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_freeze_embryos.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_lid_opened.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_low_battery_alarm.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_low_temperature_alarm.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_power_off.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_power_on.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_tilted_alarm.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_tilted_warning.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_transfer_alarm.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_transfer_mode.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_treatment_unknown.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_undocked.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_undocking.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\NoDish.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\lv_mirim_main_display.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\Padlock_Closed.c" />
+    <ClCompile Include="lvgl\examples\widgets\MIRI-M\Padlock_Open.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_roboto_12.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_roboto_26.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_roboto_40.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_roboto_60.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_roboto_bold_12.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_roboto_bold_26.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_roboto_bold_40.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_roboto_bold_60.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />

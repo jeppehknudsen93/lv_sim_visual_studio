@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @file lv_conf.h
  * Configuration file for v8.1.0-dev
  */
@@ -35,7 +35,7 @@
 #define LV_COLOR_SCREEN_TRANSP 0
 
 /*Images pixels with this color will not be drawn if they are chroma keyed)*/
-#define LV_COLOR_CHROMA_KEY lv_color_hex(0x00ff00)         /*pure green*/
+#define LV_COLOR_CHROMA_KEY lv_color_hex(0xE4E7EB)         /*pure green*/
 
 /*=========================
    MEMORY SETTINGS
@@ -212,11 +212,11 @@ e.g. "stm32f769xx.h" or "stm32f429xx.h"*/
  *-----------*/
 
 /*1: Show CPU usage and FPS count in the right bottom corner*/
-#define LV_USE_PERF_MONITOR 1
+#define LV_USE_PERF_MONITOR 0
 
 /*1: Show the used memory and the memory fragmentation in the left bottom corner
  * Requires LV_MEM_CUSTOM = 0*/
-#define LV_USE_MEM_MONITOR 1
+#define LV_USE_MEM_MONITOR 0
 
 /*1: Draw random colored rectangles over the redrawn areas*/
 #define LV_USE_REFR_DEBUG 0

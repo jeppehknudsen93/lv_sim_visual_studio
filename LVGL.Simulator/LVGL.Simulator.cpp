@@ -40,8 +40,8 @@ int main()
     if (!lv_win32_init(
         GetModuleHandleW(NULL),
         SW_SHOW,
-        800,
-        480,
+        320,
+        240,
         LoadIconW(GetModuleHandleW(NULL), MAKEINTRESOURCE(IDI_LVGL))))
     {
         return -1;
@@ -104,7 +104,7 @@ int main()
     // Demos from lv_examples
     // ----------------------------------
 
-    lv_demo_widgets();           // ok
+    // lv_demo_widgets();           // ok
     // lv_demo_benchmark();
     // lv_demo_keypad_encoder();    // ok
     // lv_demo_music();             // removed from repository
@@ -253,6 +253,31 @@ int main()
 
     // lv_example_win_1();         // ok
 
+
+    // ----------------------------------
+    // MIRI-M DESIGN PROPOSALS
+    // ----------------------------------
+    //lv_mirim_main_display();                    //Done
+    //lv_mirim_undocking();                       //Done
+    //lv_mirim_undocked();                        //Done
+    //lv_mirim_docking();                         //Done
+    //lv_mirim_docked();                          //Done           
+
+    lv_mirim_power_off();                       //Ongoing
+    //lv_mirim_power_on();
+
+    //lv_mirim_lid_opened();
+    //lv_mirim_treatment_unknown();
+
+    //lv_mirim_low_battery_alarm();
+    //lv_mirim_low_temperature_alarm();
+    //lv_mirim_tilted_warning();
+    //lv_mirim_tilted_alarm();
+
+    //lv_mirim_transfer_mode();
+    //lv_mirim_transfer_alarm();
+    //lv_mirim_freeze_embryos();
+    
     // ----------------------------------
     // Task handler loop
     // ----------------------------------
